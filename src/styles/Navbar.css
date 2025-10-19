@@ -1,0 +1,74 @@
+.navbar {
+  background: linear-gradient(rgba(59, 55, 53, 0.5), rgba(59, 55, 53, 0.5)),url(/public/images/Handmade-Carpet.jpg) center no-repeat;
+  color: var(--color-accent);
+  box-shadow: var(--shadow-strong);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  flex-wrap: wrap;
+  /* border-radius: 20px; */
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: 0 auto 70px;
+  position: sticky;
+}
+
+.navLogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.navLogo span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-size: 28px;
+  color: var(--color-secondary);
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navLinks a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navLinks a:hover,
+.navLinks a.active {
+  text-decoration: underline;
+}
+
+.navIcons {
+  display: flex;
+  gap: 16px;
+  font-size: 1.2rem;
+}
+
+.cartIconWrapper {
+  position: relative;
+}
+
+.cartBadge {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.icon {
+  color: var(--color-text);
+  width: 20px;
+  height: 20px;
+}

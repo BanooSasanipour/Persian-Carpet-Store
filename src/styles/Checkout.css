@@ -1,0 +1,36 @@
+.checkoutPage {
+  max-width: 600px;
+  margin: 150px auto;
+  padding: 40px 20px;
+  border-radius: 20px;
+  box-shadow: var(--shadow-strong);
+}
+
+.checkoutPage ul {
+  list-style: none;
+  padding: 0;
+}
+
+.checkoutPage li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 6px;
+}
+
+.totalPrice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-blue-deep);
+  text-align: center;
+  box-shadow: var(--shadow-medium);
+  border-radius: 25px;
+  width: 70%;
+  height: 50px;
+  margin: 20px auto;
+}
+
+
+.btn {
+  width: 100%;
+}

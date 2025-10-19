@@ -1,0 +1,25 @@
+.loginPage {
+  max-width: 400px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: var(--shadow-strong);
+  border-radius: 20px;
+}
+
+.loginPage form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.loginPage input {
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.loginPage button {
+  width: 100%;
+}

@@ -1,0 +1,80 @@
+.homePage {
+  text-align: center;
+  padding: 20px 0;
+  margin: 0 20px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background: linear-gradient(rgba(59, 55, 53, 0.5), rgba(59, 55, 53, 0.5)), url("/public/images/homepage.jpg") center/cover no-repeat; 
+  color: var(--color-text);
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.heroSection h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.heroSection p {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.searchArea {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.searchAreaIcon {
+  width: 35px;
+  height: 35px;
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+  border-radius: 50px;
+  padding: 5px;
+  margin-right: -45px;
+  z-index: 200;
+}
+
+.searchAreaInput {
+  border-radius: 25px;
+  width: 600px;
+  height: 50px;
+  border: none;
+  padding: 10px 55px;
+  box-shadow: var(--shadow-medium);
+}
+
+.categoryList{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: -200px -10px 10px -10px;
+
+}
+
+.featureProducts {
+  text-align: center;
+  padding: 6rem 0;
+  position: relative;
+  margin-top: 100px;
+}
+
+.featureProducts::after,
+.featureProducts::before {
+   content: "";
+    position: absolute;
+    width: 60rem;
+    height: 60rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.shopButton:hover {
+  background-color: var(--color-accent);
+}

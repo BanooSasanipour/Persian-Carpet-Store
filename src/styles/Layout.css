@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+h1, h2, h3 {
+  color: var(--primary);
+}
+
+button {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--primary-dark);
+}

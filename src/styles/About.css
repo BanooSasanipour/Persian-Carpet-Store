@@ -1,0 +1,46 @@
+.aboutPage {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px;
+  line-height: 1.7;
+  box-shadow: var(--shadow-strong);
+  border-radius: 20px;
+}
+
+.aboutPage h2 {
+  font-size: 2rem;
+  color: var(--color-purple-dark);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.aboutPage h3 {
+  margin-top: 30px;
+  color: var(--color-blue-deep);
+}
+
+.aboutValues ul {
+  list-style: none;
+  padding: 0;
+}
+
+.aboutValues li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.aboutCTA {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.aboutButton {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: var(--primary);
+  color: var(--color-secondary);
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}

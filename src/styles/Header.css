@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary);
+  color: rgb(26, 24, 24);
+  padding: 16px 24px;
+  flex-wrap: wrap;
+}
+
+.logoArea {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.searchArea input {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  width: 240px;
+  font-size: 1rem;
+}
+
+.iconArea {
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  font-size: 1.4rem;
+  color: rgb(15, 15, 15);
+  cursor: pointer;
+}

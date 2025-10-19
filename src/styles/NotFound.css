@@ -1,0 +1,13 @@
+.notFoundPage {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.notFoundPage h2 {
+  font-size: 2rem;
+  color: var(--primary);
+}
+
+.notFoundPage button {
+  margin-top: 20px;
+}

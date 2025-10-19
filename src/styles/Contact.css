@@ -1,0 +1,53 @@
+.contactPage {
+  max-width: 600px;
+  margin: auto;
+  padding: 40px 20px;
+  box-shadow: var(--shadow-strong);
+  border-radius: 20px;
+}
+
+.contactPage h2 {
+  text-align: center;
+  color: var(--color-purple-dark);
+  margin-bottom: 30px;
+}
+
+.contactInfo {
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.contactInfoTitle {
+  color: var(--color-secondary);
+  font-size: 2rem;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contactForm input,
+.contactForm textarea {
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.contactForm textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contactForm button {
+  padding: 10px;
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+  border: none;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 100%;
+}
