@@ -1,25 +1,35 @@
-# 🧵 Persian Carpet Store
+# 🧵 Persian Carpet Store - E-Commerce Web App
+
 
 ## 🇬🇧 English
 
 Welcome to the Persian Carpet Store – a modern React-based homepage that celebrates the elegance of Persian rugs. This project blends cultural richness with frontend precision, designed for the German-speaking market.
 
-### ✨ Features
+## 🛠️ Tech Stack
+
+- Frontend:** React.js, React Router, Context API
+- Styling:** CSS Modules, Responsive Design
+- Deployment:** Netlify
+- State Management:** React Context
+- Assets:** Local & CDN image handling
+
+## ✨ Features
+
+- 🖼️ **Dynamic Product Cards** with hover image transitions
+- 💸 **Discount Calculation** and price display logic
+- 🛒 **Add to Cart** functionality using Context API
+- 📱 **Responsive Design** for mobile and desktop
+- Image gallery (main + hover image)
+- Add to cart button
+- Tabbed sections: Product Features, Design Introduction, Specifications
 - Category-based browsing
 - Featured product highlights
 - Search functionality with live query routing
-- Responsive design for desktop and mobile
 - Styled with custom CSS and React Router
-
-### 🔧 Technologies
-- React
-- React Router
-- CSS Modules
-- Netlify / GitHub Pages
 
 
 ### 🔗 Live Demo
-[Click here to explore](https://your-demo-link.netlify.app)
+[Click here to explore](https://merry-lolly-5e60e8.netlify.app)
 
 ---
 
@@ -27,29 +37,39 @@ Welcome to the Persian Carpet Store – a modern React-based homepage that celeb
 
 Willkommen im Persian Carpet Store – einer modernen React-Homepage, die die Schönheit persischer Teppiche digital erlebbar macht. Dieses Projekt verbindet kulturelle Eleganz mit technischer Präzision und richtet sich an den deutschsprachigen Markt.
 
-### ✨ Funktionen
-- Kategorienbasierte Navigation
-- Hervorgehobene Produkte
-- Suchfunktion mit direkter Weiterleitung
-- Responsives Design für Desktop und Mobilgeräte
-- Gestaltet mit CSS und React Router
+## 🛠️ Tech-Stack
 
-### 🔧 Technologien
-- React
-- React Router
-- CSS-Module
-- Netlify / GitHub Pages
+- Frontend:** React.js, React Router, Context API
+- Styling:** CSS-Module, Responsive Design
+- Bereitstellung:** Netlify
+- Statusverwaltung:** React Context
+- Assets:** Lokale & CDN-Bildverarbeitung
+
+## ✨ Funktionen
+
+- 🖼️ **Dynamische Produktkarten** mit Hover-Bildübergängen
+- 💸 **Rabattberechnung** und Preisanzeigelogik
+- 🛒 **In den Warenkorb**-Funktion über Context API
+- 📱 **Responsive Design** für Mobilgeräte und Desktop
+- Bildergalerie (Hauptbild + Hover-Bild)
+- In den Warenkorb-Button
+- Registerkartenbereiche: Produktfunktionen, Designeinführung, Spezifikationen
+- Kategoriebasiertes Browsen
+- Produkthighlights
+- Suchfunktion mit Live-Query-Routing
+- Styled mit benutzerdefiniertem CSS und React Router
 
 
 ### 🔗 Live-Demo
-[Hier klicken zum Erkunden](https://your-demo-link.netlify.app)
+[Hier klicken zum Erkunden](https://merry-lolly-5e60e8.netlify.app)
 
 ---
 
 ## 📦 Installation
 
+Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/persian-carpet-store.git
+git clone https://github.com/banoosasanipour/persian-carpet-store.git
 cd persian-carpet-store
 npm install
 npm start
